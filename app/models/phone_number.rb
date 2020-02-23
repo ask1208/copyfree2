@@ -1,4 +1,4 @@
 class PhoneNumber < ApplicationRecord
   belongs_to :user, optional: true
-  validates :zipcode, :phone_numbers ,presence: true
+  validates :phone_number, presence: true, uniqueness: true
 end
