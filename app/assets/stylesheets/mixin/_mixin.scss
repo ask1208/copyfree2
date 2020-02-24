@@ -56,7 +56,7 @@
   appearance: none;
 }
 
-@mixin login-btn {
+@mixin login-btn { 
   font-size: 14px;
   margin: auto;
   padding: 15px 40px;
@@ -143,4 +143,31 @@
   color: #fff;
   font-size: 12px;
   vertical-align: top;
+}
+
+@mixin  btn_red{
+  display: block;
+  margin: 8px 0 0;
+  line-height: 50px;
+  width: 320px;
+  text-align: center;
+  background: #ea352d;
+  border: 1px solid #ea352d;
+  color: #fff;
+}
+
+@mixin divider-line {
+  background-color: $white;
+  border-bottom: 1px solid $light_gray;
+}
+
+@mixin small-divider-line {
+  padding: 30px 0;
+  border-bottom: 1px solid $light_gray;
+}
+
+@mixin change {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
 }
