@@ -35,10 +35,13 @@
               = link_to "ログアウト", destroy_user_session_path, method: :delete
             - else
               -# %h2 ログインしていません
-              .signup-btn
-                = link_to "新規登録", new_user_registration_path, class:'signin-text'
-              .login-btn
-                = link_to "ログイン", new_user_session_path, class:'signin-btn__text'
+          .signup-btn
+            = link_to "新規登録", new_user_registration_path, class:'signin-text'
+          .login-btn
+            = link_to "ログイン", new_user_session_path, class:'signin-btn__text'
+          .login-btn
+            -# = link_to "カード登録",item_confirmation_path, class:'signin-btn__text'
+            
 
           -#   -# パスの指定（registration_users_path）
           -#   =link_to '新規会員登録', '#', class:'signin-text'
