@@ -47,7 +47,7 @@
 |brand|text|
 
 ### アソシエーション
-[category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
+  - [category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
 - belongs_to_active_hash :category
 [condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
 - belongs_to_active_hash :condition
