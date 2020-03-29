@@ -60,7 +60,8 @@
 - belongs_to_active_hash :delivery_days
 - belongs_to_active_hash :delivery_method
 
-### active_hash
+`active_hash`
+
 [category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
 
 [condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
