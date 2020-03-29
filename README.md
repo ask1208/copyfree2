@@ -48,6 +48,7 @@
 
 ### アソシエーション
 - belongs_to_active_hash :category
+
 [category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
 - belongs_to_active_hash :condition
 [condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
