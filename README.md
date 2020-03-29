@@ -47,25 +47,28 @@
 |brand|text|
 
 ### アソシエーション
-- belongs_to_active_hash :category
-
-[category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
-- belongs_to_active_hash :condition
-[condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
-- belongs_to_active_hash :size
-[size](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/size.rb)
-- belongs_to_active_hash :delivery_charge
-[delivery_charge](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_charge.rb)
-- belongs_to_active_hash :delivery_days
-[delivery_days](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_days.rb)
-- belongs_to_active_hash :delivery_method
-[delivery_method](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_method.rb)
+- has_many   :images,dependent: :destroy
+- has_many :likes, dependent: :destroy
 
 - belongs_to :category
 - belongs_to :seller, class_name: "User"
 
-- has_many   :images,dependent: :destroy
-- has_many :likes, dependent: :destroy
+- belongs_to_active_hash :category
+- belongs_to_active_hash :condition
+- belongs_to_active_hash :size
+- belongs_to_active_hash :delivery_charge
+- belongs_to_active_hash :delivery_days
+- belongs_to_active_hash :delivery_method
+
+### active_hash
+[category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
+[condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
+[size](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/size.rb)
+[delivery_charge](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_charge.rb)
+[delivery_days](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_days.rb)
+[delivery_method](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_method.rb)
+
+
 
 ## addressesテーブル
 |Column|Type|Options|
