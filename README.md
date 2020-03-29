@@ -1,5 +1,5 @@
 ## README
-## freemarket_sample_61a DB設計
+## freemarket_sample_61a DB設計test
 
 ## usersテーブル
 |Column|Type|Options|
@@ -84,6 +84,10 @@
 
 ### アソシエーション
 -  belongs_to_active_hash :prefecture
+
+`active_hash`
+
+[prefecture](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/prefecture.rb)
 
 ## cardsテーブル
 |Column|Type|Options|
