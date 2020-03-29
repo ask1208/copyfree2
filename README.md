@@ -62,10 +62,15 @@
 
 ### active_hash
 [category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
+
 [condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
+
 [size](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/size.rb)
+
 [delivery_charge](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_charge.rb)
+
 [delivery_days](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_days.rb)
+
 [delivery_method](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_method.rb)
 
 
