@@ -1,5 +1,29 @@
 ## README
-## freemarket_sample_61a DB設計test
+## freemarket_sample_61a DB設計
+
+# アプリケーション
+
+http://18.178.72.144
+
+basic認証のID、パスワード
+ID:61wa
+pass:8888
+
+# アプリケーション内で使用している技術
+
+|種別|名称|
+|開発言語	|Ruby(ver 2.5.1)|
+|フレームワーク|Ruby on Rails(ver 5.2.4)|
+|マークアップ|HTML(Haml),CSS(Sass)|
+|フロントエンド|JavaScript(jQuery)|
+|DB|MySQL2|
+|本番環境|AWS|EC2|
+|画像アップロード|carrierwave, AWS S3|
+|ロボット判定機能|reCAPTCHA|
+|自動デプロイ|capistrano|
+|ユーザー管理|devise|
+|クレジットカード管理|PayJP|
+|パンくず表示機能|gretel|
 
 ## usersテーブル
 |Column|Type|Options|
