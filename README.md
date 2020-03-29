@@ -47,18 +47,18 @@
 |brand|text|
 
 ### アソシエーション
-  - [category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
 - belongs_to_active_hash :category
-[condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
+[category](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/category.rb)
 - belongs_to_active_hash :condition
-[size](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/size.rb)
+[condition](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/condition.rb)
 - belongs_to_active_hash :size
-[delivery_charge](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_charge.rb)
+[size](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/size.rb)
 - belongs_to_active_hash :delivery_charge
-[delivery_days](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_days.rb)
+[delivery_charge](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_charge.rb)
 - belongs_to_active_hash :delivery_days
-[delivery_method](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_method.rb)
+[delivery_days](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_days.rb)
 - belongs_to_active_hash :delivery_method
+[delivery_method](https://github.com/momo8030/freemarket_sample_61a/blob/master/app/models/delivery_method.rb)
 
 - belongs_to :category
 - belongs_to :seller, class_name: "User"
